@@ -40,6 +40,7 @@ module.exports = {
         collectionBtn: "#F2F2F2",
         collectionText: "#A5A5A5",
         textGray: "#BDBDBD",
+        textGray2: "#979797",
       },
     },
   },
