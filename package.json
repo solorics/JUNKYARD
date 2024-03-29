@@ -1,0 +1,23 @@
+{
+  "name": "junk_yard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solorics/Junk_Yard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solorics/Junk_Yard/issues"
+  },
+  "homepage": "https://github.com/solorics/Junk_Yard#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

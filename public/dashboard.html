@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-montserrat">
+    <div class="h-screen w-screen flex">
+      <div id="aside" class="py-7 h-full 2xl:w-[310px] xl:w-[360px] flex flex-col shadow-md">
+        <div class="flex flex-col items-center space-y-2">
+          <img
+            src="/img/idPassport.png"
+            alt=""
+            class="rounded-full mb-4"
+            width="107px"
+          />
+          <h2 class="text-xl font-bold">PETsPoint Recycling</h2>
+          <p class="font-semibold">Avail Bal: N20,000.89</p>
+          <p class="font-normal">Basic User</p>
+        </div>
+        <div class="flex flex-col 2xl:gap-3 mt-4">
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/dashboard_icon.svg" alt="" />
+            <p>Dashboard</p>
+          </a>
+
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/recycler_icon.svg" alt="" />
+            <p>Recycler Units</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/collection_icon.svg" alt="" />
+            <p>Collection History</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/renew_icon.svg" alt="" />
+            <p>Renew Subscription</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/fund_icon.svg" alt="" />
+            <p>Fund Account</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/myAccount_icon.svg" alt="" />
+            <p>My Account</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/helpSupport_icon.svg" alt="" />
+            <p>Help & Support</p>
+          </a>
+        </div>
+        <button
+          class="bg-secondary text-white font-semibold text-center hover:bg-opacity-40 rounded-xl transition-all ease-out duration-300 delay-75 py-3 mx-12 mt-10"
+        >
+          UPGRADE PLAN
+        </button>
+      </div>
+      <div id="dashBoard" class="bg-fakeWhite h-full flex-grow py-12 px-[90px]">
+        <h1 class="2xl:text-3xl xl:text-2xl font-bold mb-5">Overview</h1>
+        <div class="relative grid grid-cols-3 gap-16">
+          <!-- first overview -->
+          <div
+            class="rounded-[32px] card-shadow backdrop-blur-xl flex items-center gap-4 w-full p-6 relative"
+          >
+            <img src="/img/totalWeight.png" alt="" width="61" />
+            <div class="flex flex-col">
+              <p class="text-textGray font-mediumn text-sm">Total Weight()Kg</p>
+              <p class="2xl:text-xl xl:text-sm font-bold">320.89</p>
+            </div>
+            <p
+              class="text-secondary font-bold text-sm absolute flex items-center gap-1 bottom-2 right-4"
+            >
+              1.78% <img src="/img/Percentage_up_icon.svg" alt="" class="" />
+            </p>
+          </div>
+          <div
+            class="rounded-[32px] card-shadow backdrop-blur-xl flex items-center gap-4 w-full p-6 relative"
+          >
+            <img src="/img/totalCitizens.png" alt="" width="61" />
+            <div class="flex flex-col">
+              <p class="text-textGray font-mediumn text-sm">Total Citizens</p>
+              <p class="2xl:text-xl xl:text-sml font-bold">2045</p>
+            </div>
+            <p
+              class="text-secondary font-bold text-sm absolute flex items-center gap-1 bottom-2 right-4"
+            >
+              1.78% <img src="/img/Percentage_up_icon.svg" alt="" class="" />
+            </p>
+          </div>
+          <div
+            class="rounded-[32px] card-shadow backdrop-blur-xl flex items-center gap-4 w-full p-6 relative"
+          >
+            <img src="/img/totalWeight.png" alt="" width="61" />
+            <div class="flex flex-col">
+              <p class="text-textGray font-mediumn text-sm">Citizens Earning</p>
+              <p class="2xl:text-xl xl:text-sm font-bold">N120k</p>
+            </div>
+            <p
+              class="text-error font-bold text-sm absolute flex items-center gap-1 bottom-2 right-4"
+            >
+              1.78% <img src="/img/Percentage_down_icon.svg" alt="" class="" />
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between 2xl:text-xl xl:text-lg m-7">
+          <p class="font-semibold">Today's Collection</p>
+          <div class="flex gap-2">
+            <p class="font-medium pr-7">Export CSV</p>
+            <img src="/img/Export_csv_icon.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="card-shadow rounded-xl 2xl:max-h-[586px]  xl:max-h-[426px] overflow-y-auto hide-scroll">
+          <table class="w-full font-semibold 2xl:text-lg xl:text-sm table-auto">
+            <thead class="text-textGray text-lg font-semibold sticky top-0 bg-white">
+                <tr class="text-left border-b">
+                  <th class="py-[16px] px-[32px]">WASTE</th>
+                  <th class="py-[16px] px-[32px]">Collection model</th>
+                  <th class="py-[16px] px-[32px]">Producer</th>
+                  <th class="py-[16px] px-[32px]">Recycler unit</th>
+                </tr>
+            </thead>
+            <tbody class="">
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Ikeja</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Brown Cartons</td>
+                    <td class="py-[16px] px-[32px]">Drop Off</td>
+                    <td class="py-[16px] px-[32px]">Community</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Agbowo</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Institutions</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Challenge</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Can</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Palmgrove</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Others</td>
+                    <td class="py-[16px] px-[32px]">Drop Off</td>
+                    <td class="py-[16px] px-[32px]">Institutions</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Challenge</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Ikeja</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Ikeja</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Brown Cartons</td>
+                    <td class="py-[16px] px-[32px]">Drop Off</td>
+                    <td class="py-[16px] px-[32px]">Community</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Agbowo</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Institutions</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Challenge</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Can</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">PETsPOint Palmgrove</td>
+                </tr>
+                <tr class="border-b text-[16px] font-medium">
+                    <td class="py-[16px] px-[32px]">Plastic Bottles</td>
+                    <td class="py-[16px] px-[32px]">Pick up</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                    <td class="py-[16px] px-[32px]">Household</td>
+                </tr>
+                
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
