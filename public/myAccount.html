@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fund Account Request</title>
+    <title>My Account</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="font-montserrat">
+  <body>
     <div class="h-screen w-screen flex">
       <div
         id="aside"
@@ -82,27 +82,45 @@
         </button>
       </div>
 
-      <div class="px-20 py-7 bg-textGray">
-        <div class="2xl:text-3xl xl:text-xl font-bold">
-          <h1>Fund Account</h1>
+      <div class="px-20 py-7 w-full">
+        <div class="flex justify-between">
+          <div>
+            <p class="text-4xl font-bold">My Account</p>
+          </div>
+          <div class="flex font-bold gap-12 text-lg">
+            <p>Change Password</p>
+            <p class="text-error">Logout</p>
+          </div>
         </div>
+        <div class="flex mt-20">
+          <!-- Right -->
+          <div class="flex flex-col gap-12">
+            <div
+              class="rounded-3xl card-shadow flex gap-4 px-6 py-4 items-center"
+            >
+              <div class="relative">
+                <img src="/img/id.svg" alt="" class="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="font-semibold mr-20">PETsPoint Recycling</p>
+                <p>Basic User</p>
+              </div>
+            </div>
 
-        <!-- Card -->
-        <div class="rounded-3xl card-shadow px-10 py-12 mt-20 flex flex-col bg-white">
-          <div>
-            <p class="text-4xl font-semibold">How much will you like to fund into your <br> account now?</p>
+            <div class="rounded-3xl card-shadow flex flex-col gap-7 px-6 py-7">
+                <div class="flex flex-col font-semibold text-xl gap-2">
+                    <p class="text-collectionText">Avail Bal:</p>
+                    <p>N20,000.89</p>
+                </div>
+                <div class="flex flex-col font-semibold text-xl mb-20 gap-2">
+                    <p class="text-collectionText">Recycler Units:</p>
+                    <p>4 Units</p>
+                </div>
+            </div>
           </div>
-          <div class="flex flex-col py-12 mt-12 gap-12 text-xl font-medium">
-            <label for="">Amount(NGN)</label>
-            <input type="text" class="border-b-collectionText border-b-2 focus:outline-none" />
-          </div>
-          <div>
-            <p class="text-justify text-collectionText text-opacity-25 mb-20">
-              This is the amount you intend to save in your account from which
-              your pick up or drop <br> off transactions will be deducted from.
-              Minimum of N5000 is required. You can top up <br> your account anytime.
-            </p>
-          </div>
+
+          <!-- Left -->
+          <div class=""></div>
         </div>
       </div>
     </div>
