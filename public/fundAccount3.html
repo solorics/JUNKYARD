@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -82,43 +82,53 @@
         </button>
       </div>
 
-      <div class="px-20 py-7 bg-textGray">
-        <div class="2xl:text-3xl xl:text-xl font-bold">
-          <h1>Fund Account</h1>
+      <div class="px-20 py-7 bg-textGray w-full">
+        <div class="font-bold space-y-7">
+          <h1 class="2xl:text-4xl xl:text-xl">Fund Account</h1>
+          <p class="text-sm text-textGray">
+            Fund Account
+            <span class="text-black">> Choose Payment Options</span>
+          </p>
         </div>
 
         <!-- Card -->
-        <div
-          class="rounded-3xl card-shadow px-10 py-12 mt-20 flex flex-col bg-white"
-        >
-          <div>
-            <p class="2xl:text-4xl xl:text-2xl font-semibold">
-              How much will you like to fund into your <br />
-              account now?
-            </p>
-          </div>
-          <div class="flex flex-col py-12 mt-12 gap-12 2xl:text-xl xl:text-lg font-medium">
-            <label for="">Amount(NGN)</label>
-            <input
-              type="text"
-              class="border-b-collectionText border-b-2 focus:outline-none"
-            />
-          </div>
-          <div>
-            <p class="text-justify text-collectionText text-opacity-25 xl:text-sm">
-              This is the amount you intend to save in your account from which
-              your pick up or drop <br />
-              off transactions will be deducted from. Minimum of N5000 is
-              required. You can top up <br />
-              your account anytime.
-            </p>
-          </div>
-          <div class="2xl:py-12 xl:py-10">
-            <button
-              class="bg-secondary text-white 2xl:text-xl font-bold border-secondary focus:outline-none hover:bg-white hover:text-secondary hover:border-secondary hover:border-[3px] ease-out transform transition-all duration-300 px-20 py-3 rounded-md"
-            >
-              Fund Account
-            </button>
+        <div class="w-[50%]">
+          <div class="flex flex-col gap-7 rounded-2xl card-shadow py-7 px-12 mt-20">
+            <div>
+              <p class="2xl:text-4xl xl:text-2xl font-semibold">Choose payment option</p>
+            </div>
+            <div class="font-semibold 2xl:text-xl">
+              <div class="py-3 cursor-pointer">
+                <input
+                  type="radio"
+                  id="formRadio1"
+                  class="form-radio hover:text-secondary focus:border-secondary h-3 w-3 cursor-pointer"
+                  name="radio-option"
+                  value="Bank Payment"
+                />
+                <label
+                  class="ml-2 cursor-pointer hover:text-secondary font-semibold"
+                  for="formRadio1"
+                  >Bank Payment</label
+                >
+              </div>
+              <div class="w-full py-3 cursor-pointer">
+                <input
+                  type="radio"
+                  id="formRadio"
+                  class="text-secondary h-3 w-3 cursor-pointer hover:text-secondary"
+                  name="radio-option"
+                  value="Card (Mastercard/Verve)"
+                />
+                <label
+                  class="ml-2 hover:text-secondary cursor-pointer text-secondary font-semibold"
+                  for="formRadio"
+                  >Card Payment (Mastercard/Verve)</label
+                >
+              </div>
+            </div>
+            <div class="py-4">
+                <button class="bg-secondary text-white font-bold text-xl rounded-md px-20 py-2">Proceed</button></div>
           </div>
         </div>
       </div>

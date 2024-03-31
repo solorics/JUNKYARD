@@ -45,3 +45,30 @@
   background-color: #1F9C00;
   color: white;
 }
+
+/* .popup-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popup-container.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.show-popup {
+
+}
+
+.popup-box {
+
+} */
+
+/* CSS */
