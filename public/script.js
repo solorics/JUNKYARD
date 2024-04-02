@@ -1,6 +1,20 @@
-// const showPopup = document.querySelector('.show-popup');
-// const popupContainer = document.querySelector('.popup-container');
+const bankPayment = document.getElementById('bankPayment');
+  const cardPayment = document.getElementById('cardPayment');
+  
+  bankPayment.addEventListener('click', function() {
+    if (bankPayment.checked) {
+      cardPayment.checked = false;
+    }
+  });
+  
+  cardPayment.addEventListener('click', function() {
+    if (cardPayment.checked) {
+      bankPayment.checked = false;
+    }
+  });
 
-// showPopup.onclick = () => {
-//     popupContainer.classList.add('active');
-// }
+  const cardPaymentLabel = document.getElementById('cardPaymentLabel');
+
+  cardPaymentLabel.addEventListener('click', function() {
+    cardPaymentLabel.classList.toggle('clicked-text-color');
+  });
