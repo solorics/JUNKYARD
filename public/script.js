@@ -13,8 +13,3 @@ const bankPayment = document.getElementById('bankPayment');
     }
   });
 
-  const cardPaymentLabel = document.getElementById('cardPaymentLabel');
-
-  cardPaymentLabel.addEventListener('click', function() {
-    cardPaymentLabel.classList.toggle('clicked-text-color');
-  });
