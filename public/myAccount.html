@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="h-screen w-screen flex">
+      <div
+        id="aside"
+        class="py-7 h-full 2xl:w-[330px] xl:w-[360px] flex flex-col shadow-md"
+      >
+        <div class="flex flex-col items-center space-y-2">
+          <img
+            src="/img/idPassport.png"
+            alt=""
+            class="rounded-full mb-4"
+            width="107px"
+          />
+          <h2 class="text-xl font-bold">PETsPoint Recycling</h2>
+          <p class="font-semibold">Avail Bal: N20,000.89</p>
+          <p class="font-normal">Basic User</p>
+        </div>
+        <div class="flex flex-col 2xl:gap-3 mt-4">
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/dashboard_icon.svg" alt="" />
+            <p>Dashboard</p>
+          </a>
+
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/recycler_icon.svg" alt="" />
+            <p>Recycler Units</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/collection_icon.svg" alt="" />
+            <p>Collection History</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/renew_icon.svg" alt="" />
+            <p>Renew Subscription</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/fund_icon.svg" alt="" />
+            <p>Fund Account</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/myAccount_icon.svg" alt="" />
+            <p>My Account</p>
+          </a>
+          <a
+            href="#"
+            class="flex gap-4 font-semibold hover:bg-secondary hover:bg-opacity-40 hover:border-r-secondary hover:border-r-8 transition-all ease-out transform duration-300 cursor-pointer py-3 px-12 text-dahboardText"
+          >
+            <img src="/img/helpSupport_icon.svg" alt="" />
+            <p>Help & Support</p>
+          </a>
+        </div>
+        <button
+          class="bg-secondary text-white font-semibold text-center hover:bg-opacity-40 rounded-xl transition-all ease-out duration-300 delay-75 py-3 mx-12 mt-10"
+        >
+          UPGRADE PLAN
+        </button>
+      </div>
+
+      <div class="px-20 py-7 w-full">
+        <div class="flex justify-between">
+          <div>
+            <p class="text-4xl font-bold">My Account</p>
+          </div>
+          <div class="flex font-bold gap-12 text-lg">
+            <p>Change Password</p>
+            <p class="text-error">Logout</p>
+          </div>
+        </div>
+        <div class="flex mt-20 gap-20">
+          <!-- Right -->
+          <div class="flex flex-col gap-12">
+            <div
+              class="rounded-3xl card-shadow flex gap-4 px-6 py-4 items-center"
+            >
+              <div class="relative">
+                <img src="/img/id.svg" alt="" class="" />
+              </div>
+              <div class="flex flex-col">
+                <p class="font-semibold mr-20">PETsPoint Recycling</p>
+                <p>Basic User</p>
+              </div>
+            </div>
+
+            <div
+              class="rounded-3xl card-shadow flex flex-col gap-7 px-6 2xl:py-7 xl:py-4 2xl:mb-7"
+            >
+              <div
+                class="flex flex-col font-semibold 2xl:text-xl xl:text-lg gap-2"
+              >
+                <p class="text-collectionText">Avail Bal:</p>
+                <p>N20,000.89</p>
+              </div>
+              <div
+                class="flex flex-col font-semibold 2xl:text-xl xl:text-lg mb-20 gap-2"
+              >
+                <p class="text-collectionText">Recycler Units:</p>
+                <p>4 Units</p>
+              </div>
+            </div>
+            <div
+              class="flex card-shadow rounded-2xl px-6 py-7 items-center text-center justify-center"
+            >
+              <button type="button" class="text-center font-medium text-lg">
+                View transaction history
+              </button>
+            </div>
+          </div>
+
+          <!-- Left -->
+          <div class="">
+            <div class="rounded-3xl card-shadow px-12 py-4">
+              <div class="2xl:text-xl xl:text-lg font-semibold flex">
+                <p>Contact Information</p>
+              </div>
+              <div class="flex mt-7 gap-9">
+                <div class="flex flex-col">
+                  <label for="" class="text-collectionText xl:text-sm"
+                    >First Name</label
+                  >
+                  <input
+                    type="text"
+                    class="border-b-2 border-b-collectionText focus:outline-none"
+                  />
+                </div>
+                <div class="flex flex-col">
+                  <label for="" class="text-collectionText xl:text-sm"
+                    >Last Name</label
+                  >
+                  <input
+                    type="text"
+                    class="border-b-2 border-b-collectionText focus:outline-none"
+                  />
+                </div>
+              </div>
+              <div class="flex flex-col 2xl:mt-7 xl:mt-4">
+                <div class="flex flex-col">
+                  <label for="" class="text-collectionText xl:text-sm"
+                    >Company Name</label
+                  >
+                  <input
+                    type="text"
+                    class="border-b-2 border-b-collectionText focus:outline-none"
+                  />
+                </div>
+                <div class="flex flex-col 2xl:mt-7 xl:mt-4">
+                  <label for="" class="text-collectionText xl:text-sm"
+                    >Company Addres</label
+                  >
+                  <input
+                    type="text"
+                    class="border-b-2 border-b-collectionText focus:outline-none"
+                  />
+                </div>
+              </div>
+              <div class="flex flex-col mt-7">
+                <div class="flex gap-9">
+                  <div class="flex flex-col">
+                    <label for="" class="text-collectionText xl:text-sm"
+                      >City</label
+                    >
+                    <input
+                      type="text"
+                      class="border-b-2 border-b-collectionText focus:outline-none"
+                    />
+                  </div>
+                  <div class="flex flex-col">
+                    <label for="" class="text-collectionText xl:text-sm"
+                      >State</label
+                    >
+                    <div class="flex">
+                      <input
+                        type="text"
+                        class="border-b-2 border-b-collectionText focus:outline-none"
+                      />
+                      <img src="/img/down_arrow.svg" alt="" class="pl-7" />
+                    </div>
+                  </div>
+                </div>
+                <div class="flex mt-7 gap-9">
+                  <div class="flex flex-col">
+                    <label for="" class="text-collectionText xl:text-sm"
+                      >Country</label
+                    >
+                    <div class="flex">
+                      <input
+                        type="text"
+                        class="border-b-2 border-b-collectionText focus:outline-none"
+                      />
+                      <img src="/img/down_arrow.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="flex flex-col">
+                    <label for="" class="text-collectionText xl:text-sm"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="text"
+                      placeholder="+234"
+                      class="border-b-2 border-b-collectionText focus:outline-none"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col mt-7">
+                <label for="" class="text-collectionText xl:text-sm"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="border-b-2 border-b-collectionText focus:outline-none"
+                />
+              </div>
+              <div class="2xl:py-7 xl:py-4">
+                <button
+                  class="text-white bg-secondary text-center px-10 font-bold py-3 2xl:text-lg rounded-md"
+                  id="openModal"
+                >
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to JUNK YARD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="font-montserrat h-screen w-screen flex items-center justify-center"
+  >
+    <div class="container h-full max-h-[600px]">
+      <div class="h-full flex flex-col justify-between">
+        <h1 class="2xl:text-4xl xl:text-2xl font-semibold">
+          Welcome to <span class="text-secondary font-bold">JUNKYARD</span>
+        </h1>
+        <div class="flex flex-col gap-12 2xl:gap-12 max-w-[912px] mb-4 xl:mb-2">
+          <input
+            type="text"
+            placeholder="Company Name"
+            class="border-b-[4px] focus:outline-none py-2 2xl:text-3xl xl:text-xl w-[45rem]"
+          />
+          <!-- Adjusted width here -->
+          <input
+            type="text"
+            placeholder="Company Address"
+            class="border-b-[4px] focus:outline-none py-2 2xl:text-3xl xl:text-xl w-[45rem]"
+          />
+          <!-- Adjusted width here -->
+        </div>
+        <div class="flex gap-7 mb-4">
+          <div class="flex items-center">
+            <!-- Added items-center class to center items vertically -->
+            <input
+              type="text"
+              placeholder="City/State"
+              class="border-b-[4px] focus:outline-none py-2 2xl:text-3xl xl:text-xl"
+            />
+            <img
+              src="/img/down_arrow.svg"
+              alt=""
+              class="ml-[-30px] cursor-pointer"
+            />
+            <!-- Added negative margin to move the image closer -->
+          </div>
+
+          <div class="flex items-center">
+            <!-- Added items-center class to center items vertically -->
+            <input
+              type="text"
+              placeholder="Country"
+              class="border-b-[4px] focus:outline-none py-2 2xl:text-3xl xl:text-xl"
+            />
+            <img
+              src="/img/down_arrow.svg"
+              alt=""
+              class="ml-[-30px] cursor-pointer"
+            />
+            <!-- Added negative margin to move the image closer -->
+          </div>
+        </div>
+        <div class="flex justify-between cursor-pointer">
+          <div
+            class="2xl:text-2xl xl:text-xl font-bold hover:text-secondary ease-in duration-200 text-textGray"
+          >
+            PREVIOUS
+          </div>
+          <div
+            class="text-secondary 2xl:text-2xl xl:text-xl font-bold hover:text-textGray ease-linear duration-200 mx-48"
+          >
+            NEXT
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
